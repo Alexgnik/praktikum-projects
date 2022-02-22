@@ -3,7 +3,7 @@
 Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Аналитик данных"  
 
 
-[credit bank](https://github.com/Alexgnik/praktikum-projects/credit bank.git)
+[credit bank](https://github.com/Alexgnik/praktikum-projects/credit_bank.git)
 
 Заказчик — кредитный отдел банка. 
 Нужно разобраться, влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок.     
