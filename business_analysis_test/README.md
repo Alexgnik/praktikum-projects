@@ -6,20 +6,20 @@
 |-------|:--------------------------------------|
 |[принятие решений в бизнесе](a_b_test_alexgnik.ipynb)|Приоритизация гипотез, запуск A/B-теста и анализ результата. Приоритизация гипотез при применении RICE вместо ICE. Проанализировать A/B-тест. Принять решение по результатам теста и объяснить его.|
 
-Используемые библиотеки:
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-import warnings
-warnings.filterwarnings('ignore')
-import seaborn as sns
-import scipy.stats as stats
+Используемые библиотеки:  
+import pandas as pd  
+import numpy as np  
+import matplotlib.pyplot as plt  
+%matplotlib inline  
+import warnings  
+warnings.filterwarnings('ignore')  
+import seaborn as sns  
+import scipy.stats as stats  
 
 Для выполнения проекта использовались данные из файла hypothesis.csv, который должен находиться в папке с основным файлом проекта.
 Доступ к данному файлу не могу предоставить в связи с защитой авторских прав.
 
-<br>Выводы по проекту:<br>
+<br>Выводы по проекту:<br>  
 Тест следует остановить и признать его успешным
 
 Проект закончен.
