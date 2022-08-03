@@ -6,39 +6,39 @@
 |-------|:--------------------------------------|
 |[gym_churn](gym_churn_Alexgnik.ipynb)|Анализ и план по удержанию клиентов фитнес-центра.  
 
-Сеть фитнес-центров разрабатывает стратегию взаимодействия с клиентами на основе аналитических данных.
-Задача — провести анализ и подготовить план действий по удержанию клиентов.
-А именно:
-научиться прогнозировать вероятность оттока (на уровне следующего месяца) для каждого клиента;
-сформировать типичные портреты клиентов: выделить несколько наиболее ярких групп и охарактеризовать их основные свойства;
-проанализировать основные признаки, наиболее сильно влияющие на отток;
-сформулировать основные выводы и разработать рекомендации по повышению качества работы с клиентами:
+Сеть фитнес-центров разрабатывает стратегию взаимодействия с клиентами на основе аналитических данных.  
+Задача — провести анализ и подготовить план действий по удержанию клиентов.  
+А именно:  
+научиться прогнозировать вероятность оттока (на уровне следующего месяца) для каждого клиента;   
+сформировать типичные портреты клиентов: выделить несколько наиболее ярких групп и охарактеризовать их основные свойства;  
+проанализировать основные признаки, наиболее сильно влияющие на отток;  
+сформулировать основные выводы и разработать рекомендации по повышению качества работы с клиентами:  
 
-1) выделить целевые группы клиентов;
-2) предложить меры по снижению оттока;
-3) определить другие особенности взаимодействия с клиентами.
-Проект выполнен в среде jupyter notebook.    
-Сервер работал на версии Python 3.9.7  
-Используемые библиотеки:        
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-import warnings
-warnings.filterwarnings('ignore')
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, precision_score, recall_score, silhouette_score, classification_report
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.cluster import KMeans
-from scipy.cluster.hierarchy import dendrogram, linkage
-import itertools  
+1) выделить целевые группы клиентов;  
+2) предложить меры по снижению оттока;  
+3) определить другие особенности взаимодействия с клиентами.  
+Проект выполнен в среде jupyter notebook.      
+Сервер работал на версии Python 3.9.7   
+Используемые библиотеки:          
+import pandas as pd  
+import numpy as np  
+import matplotlib.pyplot as plt  
+%matplotlib inline  
+import warnings  
+warnings.filterwarnings('ignore')  
+import seaborn as sns  
+from sklearn.model_selection import train_test_split  
+from sklearn.linear_model import LogisticRegression  
+from sklearn.preprocessing import StandardScaler  
+from sklearn.metrics import accuracy_score, precision_score, recall_score, silhouette_score, classification_report  
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.cluster import KMeans  
+from scipy.cluster.hierarchy import dendrogram, linkage  
+import itertools    
    
 
 Для выполнения проекта использовались данные из файла gym_churn.csv,
-которыq должен находиться в папке с основным файлом проекта.  
+который должен находиться в папке с основным файлом проекта.  
 Доступ к данному файлу не могу предоставить в связи с защитой авторских прав. 
 
 **Выводы по проекту:**    
